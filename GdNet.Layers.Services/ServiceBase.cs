@@ -1,12 +1,11 @@
-﻿using GdNet.Common;
-using GdNet.Common.Extensions;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using GdNet.Common;
 using GdNet.Domain.Entity;
 using GdNet.Domain.Repository;
 using GdNet.Layers.Dtos;
 using Mapping.Common.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace GdNet.Layers.Services
 {

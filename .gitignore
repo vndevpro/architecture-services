@@ -154,3 +154,6 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/packages
+/NuGet.GdNet.Layers.Services/*.nupkg
+/NuGet.GdNet.Layers.Services/*.bak
