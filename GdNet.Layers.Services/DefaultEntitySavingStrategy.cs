@@ -3,6 +3,11 @@ using GdNet.Layers.Dtos;
 
 namespace GdNet.Layers.Services
 {
+    /// <summary>
+    /// Default implement of saving strategy - do nothing
+    /// </summary>
+    /// <typeparam name="TDto"></typeparam>
+    /// <typeparam name="TEntity"></typeparam>
     public class DefaultEntitySavingStrategy<TDto, TEntity> : IEntitySavingStrategy<TDto, TEntity>
         where TDto : EditableEntityDto
         where TEntity : IAggregateRoot
