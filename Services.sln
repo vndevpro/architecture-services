@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdNet.Layers.AppCommon.Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.GdNet.Layers.AppCommon.Services", "NuGet.GdNet.Layers.AppCommon.Services\NuGet.GdNet.Layers.AppCommon.Services.csproj", "{0DBD9E68-9F17-416D-9330-43B3BDB333CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GdNet.Layers.AppCommon.ServicesImpl", "GdNet.Layers.AppCommon.ServicesImpl\GdNet.Layers.AppCommon.ServicesImpl.csproj", "{37B3A891-1036-43F4-B2E7-CB969F8ED88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.GdNet.Layers.AppCommon.ServicesImpl", "NuGet.GdNet.Layers.AppCommon.ServicesImpl\NuGet.GdNet.Layers.AppCommon.ServicesImpl.csproj", "{6C037A3D-5004-414D-9390-E2C082E8C0A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0DBD9E68-9F17-416D-9330-43B3BDB333CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBD9E68-9F17-416D-9330-43B3BDB333CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBD9E68-9F17-416D-9330-43B3BDB333CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B3A891-1036-43F4-B2E7-CB969F8ED88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B3A891-1036-43F4-B2E7-CB969F8ED88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B3A891-1036-43F4-B2E7-CB969F8ED88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B3A891-1036-43F4-B2E7-CB969F8ED88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C037A3D-5004-414D-9390-E2C082E8C0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C037A3D-5004-414D-9390-E2C082E8C0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C037A3D-5004-414D-9390-E2C082E8C0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C037A3D-5004-414D-9390-E2C082E8C0A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

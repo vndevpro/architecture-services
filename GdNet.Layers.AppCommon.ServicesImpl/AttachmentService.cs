@@ -1,9 +1,10 @@
 ﻿using GdNet.Domain.AppCommon;
+using GdNet.Layers.AppCommon.Services;
 using GdNet.Layers.Services;
 using Mapping.Common.Contracts;
 using System;
 
-namespace GdNet.Layers.AppCommon.Services
+namespace GdNet.Layers.AppCommon.ServicesImpl
 {
     public class AttachmentService : ServiceBase<AttachmentDto, Attachment>, IAttachmentService
     {

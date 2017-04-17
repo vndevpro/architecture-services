@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0DBD9E68-9F17-416D-9330-43B3BDB333CC}</ProjectGuid>
+    <ProjectGuid>{6C037A3D-5004-414D-9390-E2C082E8C0A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NuGet.GdNet.Layers.AppCommon.Services</RootNamespace>
-    <AssemblyName>NuGet.GdNet.Layers.AppCommon.Services</AssemblyName>
+    <RootNamespace>NuGet.GdNet.Layers.AppCommon.ServicesImpl</RootNamespace>
+    <AssemblyName>NuGet.GdNet.Layers.AppCommon.ServicesImpl</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -63,8 +63,8 @@
     <Folder Include="src\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="lib\GdNet.Layers.AppCommon.Services.dll" />
-    <Content Include="lib\GdNet.Layers.AppCommon.Services.pdb" />
+    <Content Include="lib\GdNet.Layers.AppCommon.ServicesImpl.dll" />
+    <Content Include="lib\GdNet.Layers.AppCommon.ServicesImpl.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
