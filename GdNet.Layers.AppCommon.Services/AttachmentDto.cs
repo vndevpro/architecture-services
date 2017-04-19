@@ -13,5 +13,7 @@ namespace GdNet.Layers.AppCommon.Services
         public long Size { get; set; }
 
         public string OriginalFilePath { get; set; }
+
+        public string AttributesData { get; set; }
     }
 }
