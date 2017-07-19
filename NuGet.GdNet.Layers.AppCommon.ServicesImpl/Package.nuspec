@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.Layers.AppCommon.ServicesImpl</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>GdNet.Layers.AppCommon.ServicesImpl</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
