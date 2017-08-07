@@ -33,18 +33,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GdNet.Common, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Common.1.8.0\lib\GdNet.Common.dll</HintPath>
+      <HintPath>..\packages\GdNet.Common.1.9.0\lib\GdNet.Common.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.Domain, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\GdNet.Domain.2.0.4\lib\GdNet.Domain.dll</HintPath>
+      <HintPath>..\packages\GdNet.Domain.2.0.5\lib\GdNet.Domain.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="GdNet.Layers.Dtos">
       <HintPath>..\packages\GdNet.Layers.Dtos.2.0.0\lib\GdNet.Layers.Dtos.dll</HintPath>
     </Reference>
     <Reference Include="Mapping.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mapping.Common.1.0.0\lib\Mapping.Common.dll</HintPath>
+      <HintPath>..\packages\Mapping.Common.1.0.1\lib\Mapping.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

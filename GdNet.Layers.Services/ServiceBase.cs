@@ -22,6 +22,11 @@ namespace GdNet.Layers.Services
             get { return _mapperProvider; }
         }
 
+        protected IEntitySavingStrategy<TDto, TEntity> SavingStrategy
+        {
+            get { return _savingStrategy; }
+        }
+
         protected ServiceBase(IRepositoryBase<TEntity> repository, IMapperProvider mapperProvider)
             : this(repository, mapperProvider, new DefaultEntitySavingStrategy<TDto, TEntity>())
         {
