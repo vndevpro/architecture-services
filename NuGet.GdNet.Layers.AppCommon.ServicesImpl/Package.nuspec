@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>GdNet.Layers.AppCommon.ServicesImpl</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>GdNet.Layers.AppCommon.ServicesImpl</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
@@ -22,9 +22,9 @@
     <copyright>Copyright @ 2017</copyright>
     <dependencies>
         <group targetFramework="net45">
-          <dependency id="GdNet.Layers.AppCommon.Services" version="1.1.0" />
-          <dependency id="GdNet.Layers.AutoMapper" version="1.3.1" />
-          <dependency id="GdNet.Domain.AppCommon" version="2.2.0" />
+          <dependency id="GdNet.Layers.AppCommon.Services" version="1.1.2" />
+          <dependency id="GdNet.Layers.AutoMapper" version="1.5.0" />
+          <dependency id="GdNet.Domain.AppCommon" version="2.3.0" />
         </group>
     </dependencies>
     <references></references>
