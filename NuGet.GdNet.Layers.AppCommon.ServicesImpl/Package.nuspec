@@ -2,30 +2,30 @@
 <package >
   <metadata>
     <id>GdNet.Layers.AppCommon.ServicesImpl</id>
-    <version>1.0.2</version>
+    <version>1.1.0</version>
     <title>GdNet.Layers.AppCommon.ServicesImpl</title>
     <authors>RabbitSoftware</authors>
     <owners>junioho</owners>
     <description>
-      A long description of the package. This shows up in the right pane of the Add Package Dialog as well as in the Package Manager Console when listing packages using the Get-Package command.
+      AppCommon services
     </description>
     <releaseNotes>
     </releaseNotes>
     <summary>
-      A short description of the package. If specified, this shows up in the middle pane of the Add Package Dialog. If not specified, a truncated version of the description is used instead.
+
     </summary>
     <language>en-US</language>
     <projectUrl>https://nuget.org/packages/NuGet.GdNet.Layers.AppCommon.ServicesImpl</projectUrl>
     <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright @ 2017</copyright>
+    <copyright>Copyright @ 2018</copyright>
     <dependencies>
-        <group targetFramework="net45">
-          <dependency id="GdNet.Layers.AppCommon.Services" version="1.1.2" />
-          <dependency id="GdNet.Layers.AutoMapper" version="1.5.0" />
-          <dependency id="GdNet.Domain.AppCommon" version="2.3.0" />
-        </group>
+      <group targetFramework="net45">
+        <dependency id="GdNet.Layers.AppCommon.Services" version="1.1.2" />
+        <dependency id="GdNet.Layers.AutoMapper" version="1.5.0" />
+        <dependency id="GdNet.Domain.AppCommon" version="2.3.0" />
+      </group>
     </dependencies>
     <references></references>
     <tags></tags>
